@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Love';
+    src: url(fonts/Filxgirl.TTF) format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'Morris';
+    src: url(fonts/MorrisRomanBlack.otf) format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body{
+    font-family: 'Morris';
+    font-size: 1em;
+}
+
+h1{
+    font-family: "Love";
+    font-size: 5em;
+}

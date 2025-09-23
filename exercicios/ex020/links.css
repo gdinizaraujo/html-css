@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*{
+    list-style: none;
+}
+
+
+h1{
+    padding: 2rem;
+}
+
+a{
+    
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:visited{
+    color: darkblue;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: darkgoldenrod;
+}
+
+li{
+    padding: 20px;
+}
+
+.especial{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(202, 224, 243);
+    transition: 0.3s; 
+}
+
+.especial:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 6px black;
+}
+
+.especial::before{
+    content:'→';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+
+.especial::after{
+    content:'←';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #333;
+    color: #FFF;
+    font-family: sans-serif
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1{
+    color: #79bf14;
+}
+
+hr{
+    width: 100%;
+    margin: 30px 0px;
+    border: 1px dashed #444;
+}
+
+h2{
+    color: #14bfbf;
+}
+
+input{
+    padding: 10px 20px;
+    text-align: center;
+}

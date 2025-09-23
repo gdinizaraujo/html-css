@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Cores em CSS3</title>
+     
+<style>
+
+    body{
+
+        background: linear-gradient(to bottom, #FEE715, #101820);
+        height: 100vh;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        border-radius: 60px ;
+        
+    }
+
+    p{
+        color: rgb(0, 0, 0);
+        text-align: justify;
+    }
+</style>
+
+</head>
+
+<body style="background-color: black;">
+
+
+    <!-- REPRESENTAÇÃO POR NOMES -->
+    <h2 style="background: linear-gradient(to right, red, black); height: 10vh; background-size: cover; color: white;">Exemplo de Cores</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam sed ex quaerat voluptatum, dolor nostrum nesciunt, assumenda vel exercitationem quibusdam labore earum ducimus ipsum, soluta id omnis tempore incidunt veniam.
+        </p>
+
+    <!-- REPRESENTAÇÃO POR CÓDIGOS HEXADECIMAIS -->
+    <!-- HEXADECIMAL: 0 1 2 3 4 5 6 7 8 9 A B C D E F -->
+    <!-- '0' MAIS FRACA / 'F' MAIS FORTE-->
+    <h2 style="background-color: #ff0000; color: #ffffff;">Exemplo de Cores</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam sed ex quaerat voluptatum, dolor nostrum nesciunt, assumenda vel exercitationem quibusdam labore earum ducimus ipsum, soluta id omnis tempore incidunt veniam.
+        </p>
+
+    <!-- REPRESENTAÇÃO EM RGB -->
+    <h2 style="background-color: rgba(255, 0, 0, 0.199); color: rgba(255, 255, 255, 0.418);">Exemplo de Cores</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam sed ex quaerat voluptatum, dolor nostrum nesciunt, assumenda vel exercitationem quibusdam labore earum ducimus ipsum, soluta id omnis tempore incidunt veniam.
+        </p>
+
+    <!-- REPRESENTAÇÃO POR HSL (HUE, SATURATION, LUMINOSITY)-->
+    <h2 style="background-color: hsl(0, 100%, 50%); color: hsl(0, 0%, 100%);">Exemplo de Cores</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam sed ex quaerat voluptatum, dolor nostrum nesciunt, assumenda vel exercitationem quibusdam labore earum ducimus ipsum, soluta id omnis tempore incidunt veniam.
+        </p>
+
+
+</body>
+
+</html>

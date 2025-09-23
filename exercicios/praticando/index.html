@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pseudo-Elementos</title>
+
+    <style>
+        .firstLine::first-line{
+            font-weight: bold;
+            text-shadow: 1px 1px 1px rgb(0, 4, 255);
+            font-size: 1.2rem;
+
+        }
+
+        .firstLetter::first-letter{
+            font-weight: bold;
+            color: blueviolet;
+            text-decoration: underline;
+            text-shadow: 1px 1px 1px rgb(0, 4, 255);
+            font-size: 3rem;
+
+        }
+
+        .selection::selection{
+            background-color: rgb(245, 174, 162);
+            color: black;
+        }
+
+        ul.marker li::marker{
+            color: rgb(255, 0, 0);
+            font-weight: bold;
+            font-size: 1.2rem;
+            content: "> ";
+        }
+
+        .placeholder::placeholder{
+            font-weight: bold;
+            color: rgb(78, 20, 20);
+        }
+
+        .before::before{
+            content: '[X] ';
+            font-weight: bold;
+            color: darkgreen;
+        }
+
+        .after::after{
+            content: ' [X]';
+            font-weight: bold;
+            color: darkgreen;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <h1>Pseudo-Elementos CSS</h1>
+
+    <hr>
+
+    <h2>1 - First Line</h2>
+        <p class="firstLine">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim perferendis aliquid, quis suscipit, deserunt ratione error eaque laudantium ducimus laborum voluptate et. Tempora facilis culpa alias fugiat dignissimos nostrum!
+        </p>
+
+    <hr>
+
+    <h2>2 - First Letter</h2>
+        <p class="firstLetter">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim perferendis aliquid, quis suscipit, deserunt ratione error eaque laudantium ducimus laborum voluptate et. Tempora facilis culpa alias fugiat dignissimos nostrum!
+        </p>
+
+    <hr>
+
+    <h2>3 - Selection</h2>
+        <p class="selection">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim perferendis aliquid, quis suscipit, deserunt ratione error eaque laudantium ducimus laborum voluptate et. Tempora facilis culpa alias fugiat dignissimos nostrum!
+        </p>
+
+    <hr>
+
+    <h2>4 - Marker</h2>
+        <ul class="marker">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+    <hr>
+
+    <h2>5 - Placeholder</h2>
+        <input type="text" placeholder="Digite seu email" class="placeholder">
+    
+    <hr>
+
+    <h2>6 - Before</h2>
+
+        <div class="before">Exemplo de texto.</div>
+        <div class="before">Exemplo de texto.</div>
+        <div class="before">Exemplo de texto.</div>
+
+    <hr>
+
+    <h2>7 - After</h2>
+
+        <div class="after">Exemplo de texto.</div>
+        <div class="after">Exemplo de texto.</div>
+        <div class="after">Exemplo de texto.</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Videos Hospedados Localmente</h1>
+
+    <p>
+        Hoje vamos inserir videos no site que estão hospedados localmente no PC.
+    </p>
+
+    <video 
+        poster="img/dog.jpg"
+        title="Floresta"
+        aria-label="Video de uma floresta"
+        preload="metadata"
+        width="650" 
+        controls 
+        loop>
+            <source 
+                src="videos/Video-1-720p.mp4" 
+                type="video/mp4">
+            <source 
+                src="videos/Video-1-720p.webm" 
+                type="video/webm">
+        <p>
+            Infelizmente o seu navegador não suporta esse tipo de video!
+        </p>
+
+    </video>
+<br>
+    <p>
+        Caso não consiga assistir o video, clique no link abaixo para fazer o download da midia
+    </p>
+
+    <ul>
+        <li>
+            <a 
+                href="videos/Video-1-720p.mp4" 
+                download="Videos-1-720p.mp4"
+                target="_blank">
+                MP4
+            </a>
+        </li>
+    </ul>
+            
+    <h1>Inserindo Videos do Youtube</h1>
+
+    <iframe 
+        width="650" 
+        height="315" 
+        src="https://www.youtube.com/embed/OzUnqQk4eOg?si=izuPKCYNGVt6MAfi" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+    </iframe>
+</body>
+</html>

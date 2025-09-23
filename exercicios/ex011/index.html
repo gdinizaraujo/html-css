@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+   <h1>Vamos testar Imagens Dinâmicas</h1>
+
+<p>
+    Tente abrir esse site em vários dispositivos diferentes ou simplesmente 
+    aumente e diminua o tamanho do seu navegador.
+</p>
+
+<picture>
+    <source 
+        media="(max-width: 750px)" 
+        srcset="img/img-p.png" 
+        type="image/png">
+        
+    <source 
+        media="(max-width: 1050px)" 
+        srcset="img/img-m.png" 
+        type="image/png">
+        
+    <img 
+        src="img/img-g.png" 
+        alt="Foto grande">
+</picture>
+
+<hr>
+    
+    <h1>Reproduzindo Áudio</h1>
+
+<p>
+    Vamos aprender a reproduzir áudio em um site
+</p>
+
+<!-- COMO ADICIONAR ÁUDIO NO SITE -->
+<audio 
+    preload="metadata" 
+    controls 
+    loop 
+    aria-label="Reprodução do áudio de exemplo">
+    <source 
+        src="midias/audio-1.mp3" 
+        type="audio/mpeg">
+    Seu navegador não suporta o elemento de áudio.
+</audio>
+
+<!-- OPÇÃO PARA DOWNLOAD CASO NÃO CONSIGA REPRODUZIR -->
+<p>
+    Se seu navegador não suportar o áudio,
+    <strong>
+        <a href="midias/audio-1.mp3" download="audio-1.mp3">
+            CLIQUE AQUI
+        </a>
+    </strong> 
+    para fazer o download do áudio.
+</p>
+
+<hr>
+
+</body>
+</html>

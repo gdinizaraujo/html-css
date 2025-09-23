@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>D007</title>
+</head>
+<body>
+    <h1>Imagens Flexiveis</h1>
+
+    <p>
+        O desafio consiste em adicionar imagens flexíveis ao site. Mas o que isso significa? Basicamente, o tamanho da imagem se adapta automaticamente ao tamanho da janela do navegador.
+    </p>
+
+    <picture>
+        <source 
+            media="(max-width:550px )"
+            srcset="img/foto-c.jpg"
+            type="image/jpeg">
+
+        <source 
+            media="(max-width:750px )" 
+            srcset="img/foto-p.jpg"
+            type="image/jpeg">
+
+        <source 
+            media="(max-width:1050px )" 
+            srcset="img/foto-m.jpg"
+            type="image/jpeg">
+
+            <source 
+            media="(max-width:1700px )" 
+            srcset="img/foto-g.jpg"
+            type="image/jpeg">
+
+        <img 
+            src="img/foto-gg.jpg" 
+            alt="Foto de Paisagem">
+    </picture>
+</body>
+</html>

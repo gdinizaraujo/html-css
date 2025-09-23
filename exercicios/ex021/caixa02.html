@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: sans-serif;
+            background-color: dimgray;
+        }
+        
+        header{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.521);
+            border-radius: 5px;
+        }
+
+        nav{
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            background-color: white;
+            box-shadow: 1px 1px 4px 3px white;
+            border-radius: 5px;
+        }
+
+        nav a{
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover{
+            text-decoration: underline;
+            font-weight: bold;
+            color: black;
+            transform: scale(1.1);
+        }
+
+        main{
+            background: white;
+            display: flex;
+            gap: 10px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.521);
+            border-radius: 0px 30px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article aside{
+            background-color: gray;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .bola{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            animation: float 2s infinite alternate;
+        }
+
+        @keyframes float {
+            0%{
+                transform: translateY(-50px);
+                background-color: red;
+            }
+            50%{
+                transform: translateY(-50px);
+                background-color: orange;
+            }
+            100%{
+                transform: translateY(90px);
+                background-color: blue;
+            }
+        }
+
+    </style>
+
+    <title>Grouping Tags</title>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Grouping Tags</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                
+            </nav>
+    </header>
+    <main>
+        <section class="assuntos">
+            <p>
+                Esportes | Politica | Economia | Cultura | Tecnologia | Ciencia | Saude | Turismo | Entretenimento
+            </p>
+        </section>
+        <section class="noticias">
+            <article>
+                <header>
+                    <h2>Noticias do Brasil</h2>
+                </header>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                    </p>
+                    <aside>
+                        <p>
+                            Artigo escrito por Guilherme Araujo
+                        </p>
+                    </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Desenvolvido por <a href="#"" target="_blank">Guilherme Araujo</a>
+        </p>
+    </footer>
+
+    <div class="bola"></div>
+
+</body>
+
+</html>
