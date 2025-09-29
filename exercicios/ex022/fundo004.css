@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.fundo{
+    margin: 30px;
+    height: 40vh;
+    width: 40vw;
+    border-radius: 10px;
+    border: 3px solid #000;
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-color: #ccc;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+#q1 {
+    text-align: center;
+    background-position: left top;
+}
+
+#q2 {
+    background-position: center top;
+}
+
+
+#q3 {
+    background-position: right top;
+}
+
+#q4 {
+    background-position: center left;
+}
+
+#q5 {
+    background-position: center center;
+}
+
+#q6 {
+    background-position: center right;
+}
+
+#q7 {
+    background-position: bottom left;
+}
+
+#q8 {
+    background-position: bottom center;
+}
+
+#q9 {
+    background-position: bottom right;
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/pattern002.png);
+    background-repeat: repeat-x;
+}
