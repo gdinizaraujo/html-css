@@ -15,6 +15,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 nav{
@@ -41,7 +42,7 @@ nav a:hover{
 
 main{
     background-color: #ffffffa9;
-    width: 400px;
+    max-width: 400px;
     padding: 20px;
     margin: 10% auto;
     border: 1px solid #afafaf;
