@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* Reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    background-color: purple;
+    /* background-image: url(assets/target001.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+.conteudo {
+    position: absolute;
+    /* background-image: url(assets/target001.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}   
