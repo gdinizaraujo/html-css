@@ -22,7 +22,7 @@
 }
 
 html, body {
-    min-height: 100vh;
+    min-height: 100dvh;
     background-color: lightgray;
     font-family: var(--fonte1);
 }
@@ -37,7 +37,7 @@ header h1 {
     padding-top: 50px;
     font-family: var(--fonte2);
     font-variant: small-caps;
-    font-size: 10vw;
+    font-size: 10dvw;
 }
 
 header p{
@@ -62,18 +62,18 @@ header a:hover{
 section{
     background-color: white;
     position: relative;
-    min-height: 100vh;
+    min-height: 100dvh;
     min-width: 100%;
-    padding-left: 5vh;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-left: 5dvh;
+    padding-top: 10dvh;
+    padding-bottom: 10dvh;
 }
 
 section p{
     font-family: var(--fonte3);
     font-size: 3.5vw;
     font-variant: small-caps;
-    padding-bottom: 60px;
+    
 }
 
 .img1 p, .img2 p{
@@ -118,11 +118,7 @@ footer{
     color: white;    
 }
 
-@media (max-width:800px){
-
-    body{
-        max-width: 100%;
-    }
+@media (max-width:500px){
     
     section p{
         font-size: 7vw;
