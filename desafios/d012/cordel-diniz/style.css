@@ -91,7 +91,7 @@ section p{
 
 .img1{
     display: inline-block;
-    background-image: url(imagens/background001.jpg);
+    background-image: url(../imagens/background001.jpg);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +101,7 @@ section p{
 
 .img2{
     display: inline-block;
-    background-image: url(imagens/background002.jpg);
+    background-image: url(../imagens/background002.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
